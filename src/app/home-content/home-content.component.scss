@@ -212,22 +212,7 @@ p.lead {
      margin-bottom: 24px;
      display: none
  }
- .btn-primary {
-     border-radius: 25px;
-     display: inline-block;
-     padding: 14px 28px 13px 28px;
-     line-height: 1;
-     border: 2px solid #29d9c2;
-     font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-     font-weight: bold;
-     font-size: 11px;
-     text-transform: uppercase;
-     letter-spacing: 1px;
-     color: #29d9c2;
-     &:hover{
-        background-color: #01a2a6;
-     }
- }
+
  .btn-white {
      border-color: #fff;
      color: #fff;
@@ -255,49 +240,6 @@ p.lead {
     font-size: 14px;
     line-height: 24px;
 }
-}
-.timeline-event {
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 64px;
-    margin-bottom: 32px;
-}
-.timeline-event:nth-child(odd) .col-sm-6:first-child {
-    padding-left: 54px;
-    padding-right: 15px;
-}
-.timeline-event .col-sm-6:first-child {
-    padding-right: 54px;
-}
-.timeline-event:nth-child(odd) .col-sm-6:last-child {
-    padding-right: 54px;
-    text-align: right;
-    padding-left: 15px;
-}
-.timeline-event .middle {
-    position: absolute;
-    left: 50%;
-    width: 60px;
-    margin-left: -30px;
-    text-align: center;
-    height: 100%;
-}
-.timeline-event .middle i {
-    font-size: 40px;
-    display: inline-block;
-    margin-bottom: 16px;
-    color: #01a2a6;
-}
-.timeline-event .middle .vertical-line {
-    top: 60px;
-    width: 2px;
-    height: 100%;
-    display: inline-block;
-    background: #01a2a6;
-    position: absolute;
-    left: 50%;
-    margin-left: -2px;
 }
 
 @media screen and (max-width:767px){
