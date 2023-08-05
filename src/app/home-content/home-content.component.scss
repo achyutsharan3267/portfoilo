@@ -57,7 +57,6 @@ p.lead {
     line-height: 30px;
     font-weight: normal;
     color: #777777;
-    max-width: 60%;
     margin: 0 auto 64px;
 }
 
@@ -255,6 +254,12 @@ p.lead {
      .col-md-4.project{
         width: calc(33.33333333% - 7.5px);
      } 
+     .skills_head{ 
+    p.lead {
+        max-width: 60%;
+    }
+    
+    }
  }
  @media screen and (min-width:992px) {
     .hover-state p {
