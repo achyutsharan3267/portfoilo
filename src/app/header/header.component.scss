@@ -7,10 +7,9 @@
 #navbarNavDropdown{
     place-content:flex-end !important ;
 }
-// .dropdown-menu{
-//     right: 0;
-//     left: unset !important;
-// }
+.navbar-toggler:focus{
+box-shadow: none;
+}
 
 .nav-link{
     font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
