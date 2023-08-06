@@ -6,7 +6,7 @@
 .banner{
     background:#01a2a6 url(..//../assets/img/pattern-background.png) no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: calc(100vh - 81px);
     position: relative;
 }
 
@@ -296,9 +296,10 @@ p.lead {
        }
  }
 @media screen and (min-width:1199px){
-    .ba{
-        width: 480px;
-    }
+     .ba{
+         width: 330px;
+         right: 60px;
+     }
     .name_wapper{
      
         
